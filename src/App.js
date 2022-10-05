@@ -5,6 +5,8 @@ import ChildrenWithTitle from './ChildrenWithTitle.jsx'
 
 import { FirstReactComponent } from './FirstReactComponent.jsx'
 
+import { ConditionalRenderingComponent } from './ConditionalRenderingComponent.jsx'
+
 function App() {
   return (
     <div>
@@ -14,6 +16,12 @@ function App() {
     <ChildrenWithTitle title="I am title">
         I am children
     </ChildrenWithTitle>
+    <ConditionalRenderingComponent
+    isBlue={true}
+    />
+    <ConditionalRenderingComponent
+    isBlue={false}
+    />
     </div>
   );
 }
