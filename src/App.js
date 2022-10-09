@@ -2,10 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 
 import ChildrenWithTitle from './ChildrenWithTitle.jsx'
-
 import { FirstReactComponent } from './FirstReactComponent.jsx'
-
 import { ConditionalRenderingComponent } from './ConditionalRenderingComponent.jsx'
+import { RenderedList } from './RenderingLists.jsx'
 
 function App() {
   return (
@@ -17,11 +16,12 @@ function App() {
         I am children
     </ChildrenWithTitle>
     <ConditionalRenderingComponent
-    isBlue={true}
+      isBlue={true}
     />
     <ConditionalRenderingComponent
-    isBlue={false}
+      isBlue={false}
     />
+    <RenderedList />
     </div>
   );
 }
