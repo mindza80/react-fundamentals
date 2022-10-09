@@ -7,6 +7,7 @@ import { ConditionalRenderingComponent } from './ConditionalRenderingComponent.j
 import { RenderedList } from './RenderingLists.jsx'
 import { InteractionEvents33 } from './InteractionEvents33.jsx'
 import { StatefulComponent34 } from './StatefulComponent34.jsx'
+import { SynchronizingWithEffects35 } from './SynchronizingWithEffects35.jsx'
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
     />
     <RenderedList /> */}
     {/* <InteractionEvents33 /> */}
-    <StatefulComponent34 />
+    {/* <StatefulComponent34 /> */}
+    <SynchronizingWithEffects35 />
     </div>
   );
 }
