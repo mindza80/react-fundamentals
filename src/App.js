@@ -6,6 +6,7 @@ import { FirstReactComponent } from './FirstReactComponent.jsx'
 import { ConditionalRenderingComponent } from './ConditionalRenderingComponent.jsx'
 import { RenderedList } from './RenderingLists.jsx'
 import { InteractionEvents33 } from './InteractionEvents33.jsx'
+import { StatefulComponent34 } from './StatefulComponent34.jsx'
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
       isBlue={false}
     />
     <RenderedList /> */}
-    <InteractionEvents33 />
+    {/* <InteractionEvents33 /> */}
+    <StatefulComponent34 />
     </div>
   );
 }
